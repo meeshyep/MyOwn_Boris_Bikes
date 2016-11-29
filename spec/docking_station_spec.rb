@@ -13,7 +13,7 @@ describe DockingStation do
     expect(subject.dock(bike)).to eq bike
   end
 
-  it 'returns a docked bike' do
+  it 'allows a bike to be docked' do
     bike = Bike.new
     subject.dock(bike)
     expect(subject.bike).to eq bike
